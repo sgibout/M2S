@@ -1,2 +1,10 @@
+# les merdes d’OSX
 .DS_Store
+
+
+# les codes
 *.out
+*.exe
+
+# tous les résultats
+*.result

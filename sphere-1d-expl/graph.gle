@@ -1,0 +1,14 @@
+size 10 10
+
+begin graph
+	data sphere.result
+	
+	dn line color black
+	d1 line color red lwidth 0.1  key "Centre"
+	
+	xtitle "t [s]"	
+	ytitle "T [°C]"	
+	
+	key pos br nobox
+
+end graph

@@ -1,0 +1,10 @@
+10				Nombre de pas d'espace (1..10)
+1000			Nombre max de pas de temps (0..1000)
+.05				Rayon [m]
+3600			Durée totale [s]
+1000			Masse volumique [SI]
+2000			Capacité calorifique [SI]
+0.5				Conductivité thermique [SI]
+500				Coefficient échange global [SI]
+20				Température initiale [°C]
+60				Température ambiante [°C]
