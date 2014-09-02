@@ -68,13 +68,13 @@ function [ T ] = run(M,I,D,L,rho,C,k,T0,TG,TD)
 endfunction
 
 M = 100;         // Nombre de noeuds en espace
-I = 3600;        // Nombre de pas de temps
+I = 7200;        // Nombre de pas de temps
 L = 0.1;        // Epaisseur du mur [m]
-D = 3600;        // Durée totale [s]
+D = 5000;        // Durée totale [s]
 
 rho = 1000;     // Masse volumique [kg/m3]
 C = 1000;       // Capacité calorifique [J/(kg.K)]
-k = .2;          // Conductivité thermique [W/(m.K)]
+k = 1;          // Conductivité thermique [W/(m.K)]
 
 T0 = 20;        // Température initiale [°C]
 TG = 30;        // Température imposée en x=0 [°C]
