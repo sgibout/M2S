@@ -8,3 +8,7 @@
 
 # tous les résultats
 *.result
+*.z
+
+# les pdf
+*.pdf

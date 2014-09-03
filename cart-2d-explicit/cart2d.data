@@ -1,0 +1,48 @@
+25			    Nb pas d'espace selon X [-]
+13			    Nb pas d'espace selon Y [-]
+.1				Dimension selon X [m]
+.1				Dimension selon Y [m]
+3600			Durée de la simulation [s]
+1000			Masse volumique [kg/m3]
+0				Température de référence pour k et C [°C]
+1				Conductivité pour la température Tref [W/(m.K)]
+.1				Pente conductivité k=k0+(T-Tref)*k1 [W/(m.K2)]
+2000			Capacité thermique pour la température Tref [J/(kg.K)]
+100				Pente capacité thermique C=C0+(T-Tref)*C1 [J/(kg.K2)]
+50				Coefficient échange gauche [W/(m2.K)]
+100				Coefficient échange supérieur [W/(m2.K)]
+20				Température initiale [°C]
+10				Amplitude de variation de la température externe [°C]
+600				Période correspondante [s]
+1.D-3			Pas de temps pour la résolution
+10.0			Pas de temps pour la sauvegarde
+28				Nombre de termes sources
+1000			Puissance volumique de base [W/m3]
+8 6 1			[C] le noeud (m,n)=(8,1) dissipe 1 fois la puissance volumique de base
+7 6 1
+6 6 1
+7 7 1
+7 8 1
+8 8 1
+9 8 1
+10 8 1			[O]
+11 8 1
+12 8 1
+12 7 1
+12 6 1
+11 6 1
+10 6 1
+10 7 1
+14 8 1			[O]
+15 8 1
+16 8 1
+16 7 1
+16 6 1
+15 6 1
+14 6 1
+14 7 1
+18 8 1			[L]
+18 7 1
+18 6 1
+19 6 1
+20 6 1

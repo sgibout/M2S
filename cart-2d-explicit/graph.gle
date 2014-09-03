@@ -1,0 +1,256 @@
+size 30 40
+
+set font texcmr hei 0.5 just tc
+
+begin object t0
+   begin surface
+      size 10 10
+      data "field.0.z"
+      xtitle "x" hei 0.35 dist 0.7
+      ytitle "y" hei 0.35 dist 0.7
+      ztitle "T(x,y)" hei 0.35 dist 0.9
+      top color red
+      underneath color blue
+      zaxis ticklen 0.1 min 0 hei 0.25
+      xaxis hei 0.25 dticks 4 nolast nofirst
+      yaxis hei 0.25 dticks 4
+      
+      zaxis min 17 max 23
+      title "t=0\ s"
+   end surface
+end object
+
+begin object t10
+   begin surface
+      size 10 10
+      data "field.10.z"
+      xtitle "x" hei 0.35 dist 0.7
+      ytitle "y" hei 0.35 dist 0.7
+      ztitle "T(x,y)" hei 0.35 dist 0.9
+      top color red
+      underneath color blue
+      zaxis ticklen 0.1 min 0 hei 0.25
+      xaxis hei 0.25 dticks 4 nolast nofirst
+      yaxis hei 0.25 dticks 4
+      
+      zaxis min 17 max 23
+      title "t=100\ s"
+      
+   end surface
+end object
+
+begin object t20
+   begin surface
+      size 10 10
+      data "field.20.z"
+      xtitle "x" hei 0.35 dist 0.7
+      ytitle "y" hei 0.35 dist 0.7
+      ztitle "T(x,y)" hei 0.35 dist 0.9
+      top color red
+      underneath color blue
+      zaxis ticklen 0.1 min 0 hei 0.25
+      xaxis hei 0.25 dticks 4 nolast nofirst
+      yaxis hei 0.25 dticks 4
+      
+      zaxis min 17 max 23
+      title "t=200\ s"
+      
+   end surface
+end object
+
+begin object t30
+   begin surface
+      size 10 10
+      data "field.30.z"
+      xtitle "x" hei 0.35 dist 0.7
+      ytitle "y" hei 0.35 dist 0.7
+      ztitle "T(x,y)" hei 0.35 dist 0.9
+      top color red
+      underneath color blue
+      zaxis ticklen 0.1 min 0 hei 0.25
+      xaxis hei 0.25 dticks 4 nolast nofirst
+      yaxis hei 0.25 dticks 4
+      
+      zaxis min 17 max 23
+      title "t=300\ s"
+
+   end surface
+end object
+
+begin object t40
+   begin surface
+      size 10 10
+      data "field.40.z"
+      xtitle "x" hei 0.35 dist 0.7
+      ytitle "y" hei 0.35 dist 0.7
+      ztitle "T(x,y)" hei 0.35 dist 0.9
+      top color red
+      underneath color blue
+      zaxis ticklen 0.1 min 0 hei 0.25
+      xaxis hei 0.25 dticks 4 nolast nofirst
+      yaxis hei 0.25 dticks 4
+      
+      zaxis min 17 max 23
+      title "t=400\ s"
+      
+   end surface
+end object
+
+begin object t50
+   begin surface
+      size 10 10
+      data "field.50.z"
+      xtitle "x" hei 0.35 dist 0.7
+      ytitle "y" hei 0.35 dist 0.7
+      ztitle "T(x,y)" hei 0.35 dist 0.9
+      top color red
+      underneath color blue
+      zaxis ticklen 0.1 min 0 hei 0.25
+      xaxis hei 0.25 dticks 4 nolast nofirst
+      yaxis hei 0.25 dticks 4
+      
+      zaxis min 17 max 23
+      title "t=500\ s"
+
+   end surface
+end object
+
+begin object t60
+   begin surface
+      size 10 10
+      data "field.60.z"
+      xtitle "x" hei 0.35 dist 0.7
+      ytitle "y" hei 0.35 dist 0.7
+      ztitle "T(x,y)" hei 0.35 dist 0.9
+      top color red
+      underneath color blue
+      zaxis ticklen 0.1 min 0 hei 0.25
+      xaxis hei 0.25 dticks 4 nolast nofirst
+      yaxis hei 0.25 dticks 4
+      
+      zaxis min 17 max 23
+      title "t=600\ s"
+      
+   end surface
+end object
+
+begin object t70
+   begin surface
+      size 10 10
+      data "field.70.z"
+      xtitle "x" hei 0.35 dist 0.7
+      ytitle "y" hei 0.35 dist 0.7
+      ztitle "T(x,y)" hei 0.35 dist 0.9
+      top color red
+      underneath color blue
+      zaxis ticklen 0.1 min 0 hei 0.25
+      xaxis hei 0.25 dticks 4 nolast nofirst
+      yaxis hei 0.25 dticks 4
+      
+      zaxis min 17 max 23
+      title "t=700\ s"
+   end surface
+end object
+
+begin object t80
+   begin surface
+      size 10 10
+      data "field.80.z"
+      xtitle "x" hei 0.35 dist 0.7
+      ytitle "y" hei 0.35 dist 0.7
+      ztitle "T(x,y)" hei 0.35 dist 0.9
+      top color red
+      underneath color blue
+      zaxis ticklen 0.1 min 0 hei 0.25
+      xaxis hei 0.25 dticks 4 nolast nofirst
+      yaxis hei 0.25 dticks 4
+      
+      zaxis min 17 max 23
+      title "t=800\ s"
+   end surface
+end object
+
+begin object t90
+   begin surface
+      size 10 10
+      data "field.90.z"
+      xtitle "x" hei 0.35 dist 0.7
+      ytitle "y" hei 0.35 dist 0.7
+      ztitle "T(x,y)" hei 0.35 dist 0.9
+      top color red
+      underneath color blue
+      zaxis ticklen 0.1 min 0 hei 0.25
+      xaxis hei 0.25 dticks 4 nolast nofirst
+      yaxis hei 0.25 dticks 4
+      
+      zaxis min 17 max 23
+      title "t=900\ s"
+   end surface
+end object
+
+begin object t100
+   begin surface
+      size 10 10
+      data "field.100.z"
+      xtitle "x" hei 0.35 dist 0.7
+      ytitle "y" hei 0.35 dist 0.7
+      ztitle "T(x,y)" hei 0.35 dist 0.9
+      top color red
+      underneath color blue
+      zaxis ticklen 0.1 min 0 hei 0.25
+      xaxis hei 0.25 dticks 4 nolast nofirst
+      yaxis hei 0.25 dticks 4
+      
+      zaxis min 17 max 23
+      title "t=1000\ s"
+   end surface
+end object
+
+begin object t110
+   begin surface
+      size 10 10
+      data "field.110.z"
+      xtitle "x" hei 0.35 dist 0.7
+      ytitle "y" hei 0.35 dist 0.7
+      ztitle "T(x,y)" hei 0.35 dist 0.9
+      top color red
+      underneath color blue
+      zaxis ticklen 0.1 min 0 hei 0.25
+      xaxis hei 0.25 dticks 4 nolast nofirst
+      yaxis hei 0.25 dticks 4
+      
+      zaxis min 17 max 23
+      title "t=1100\ s"
+   end surface
+end object
+
+
+amove 0 30
+draw "t0.bl"
+amove 10 30
+draw "t10.bl"
+amove 20 30
+draw "t20.bl"
+
+amove 0 20
+draw "t30.bl"
+
+amove 10 20
+draw "t40.bl"
+amove 20 20
+draw "t50.bl"
+
+amove 0 10
+draw "t60.bl"
+amove 10 10
+draw "t70.bl"
+amove 20 10
+draw "t80.bl"
+
+amove 0 0
+draw "t90.bl"
+amove 10 0
+draw "t100.bl"
+amove 20 0
+draw "t110.bl"
+
