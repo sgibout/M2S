@@ -1,0 +1,52 @@
+size 10 10
+
+
+amove 0 5
+begin graph
+	size 10 5
+	data sphere.result
+	
+	dn lwidth 0.03
+	d1 line color red key "Centre"!color rgb(0/9,0,1-0/9)
+	d9 line color black lwidth 0
+	d19 line color black lwidth 0
+	d29 line color black lwidth 0
+	d39 line color blue key "Bord"
+
+
+		
+	xtitle "t [s]"	
+	ytitle "T [°C]"	
+	
+	xaxis min 0 max 18000 dticks 6000 dsubticks 3000
+	yaxis min -6 max 16
+
+	key pos br nobox
+	
+end graph
+
+amove 0 0
+begin graph
+	size 10 5
+	data sphere.result
+	
+	dn lwidth 0.03
+	d2  line color red key "Centre"
+	d10 line color black lwidth 0
+	d20 line color black lwidth 0
+	d30 line color black lwidth 0
+	d40  line color blue key "Bord"
+
+	key pos br nobox
+		
+	xtitle "t [s]"	
+	ytitle "Y [-]"	
+	
+	xaxis min 0 max 18000 dticks 6000 dsubticks 3000
+	yaxis min -0.1 max 1.1
+
+	key pos br nobox
+
+end graph
+
+

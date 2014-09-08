@@ -1,0 +1,13 @@
+20				Nombre de pas d'espace (1..)
+6000			Nombre max de pas de temps (0..)
+.05				Rayon [m]
+24000			Durée totale [s]
+1000			Masse volumique [SI]
+0.5				Conductivité thermique [SI]
+2200			Capacité calorifique SOLIDE [SI]
+4200			Capacité calorifique LIQUIDE [SI]
+5				Température de FUSION [°C]
+100D3			Chaleur latente de FUSION [J/kg]
+500				Coefficient échange global [SI]
+-5				Température initiale [°C]
+15				Température ambiante [°C]
