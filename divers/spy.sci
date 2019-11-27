@@ -1,3 +1,4 @@
+
 function spy(A)
 
     [i,j] = find(A~=0)
