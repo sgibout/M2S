@@ -217,7 +217,7 @@ PRINT*,i*dt
 		IF (m==Mmax) THEN
 			! on pourrait ici calculer et stocker le dénominateur dans un variable
 			! pour gagner quelques millisecondes par itération
-			FD = S(m)*(TINF-T(m,i))/( 0.5*DR(m)/k+1/H )
+			FD = S(m)*(TINF-T(m,i))/( DR(m)/k+1/H )
 		ELSE
 			FD = k*S(m)*(T(m+1,i)-T(m,i))/DR(m)
 		ENDIF
