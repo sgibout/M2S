@@ -210,6 +210,7 @@ SUBROUTINE run()
 
 	T(:,0) = T0
 	h(:) = calcH(T0)		! on travaille en massique
+	Y(:,0) = calcY(calcH(T0))
 
 	! ------------------------------------------------------------------------------------
 	! Boucle de résolution
