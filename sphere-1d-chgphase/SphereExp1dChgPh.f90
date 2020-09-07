@@ -266,7 +266,7 @@ FUNCTION calcH(T)
 	IF (T<TF) THEN
 		! SOLIDE
 		calcH = CS*(T-TF)
-	ELSEIF (T>=TF) THEN
+	ELSEIF (T>TF) THEN
 		! LIQUIDE
 		calcH = LF+CL*(T-TF)
 	ELSE ! T=TF
@@ -285,7 +285,7 @@ FUNCTION calcT(h)
 	IF (h<0) THEN
 		! SOLIDE
 		calcT = TF + h/CS
-	ELSEIF (h>=LF) THEN
+	ELSEIF (h>LF) THEN
 		! LIQUIDE
 		calcT = TF+(h-LF)/CL
 	ELSE
@@ -303,7 +303,7 @@ FUNCTION calcY(h)
 	IF (h<0) THEN
 		! SOLIDE
 		calcY = 0
-	ELSEIF (h>=LF) THEN
+	ELSEIF (h>LF) THEN
 		! LIQUIDE
 		calcY = 1
 	ELSE
