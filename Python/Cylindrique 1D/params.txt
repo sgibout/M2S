@@ -1,0 +1,29 @@
+# ceci est un commentaire qui sera ignoré lors de l'analyse
+M=10
+N=11
+Lx=0.10
+Ly=0.11
+dt = 0.1
+D = 360
+dtLog=1.2
+
+# Définition de K et C
+K0 = 1
+alphaK = 0.001
+C0 = 1000
+alphaC = 1
+TREF = 20
+
+rho = 1000
+
+# Conditions aux limites
+H1 = 100
+H2 = 300
+TINF  = 25
+
+TB = -20
+
+PHI = 0000
+
+# Condition initiale
+T0 = 10 Température initiale
