@@ -1,6 +1,26 @@
-M2S
+MN
 ===
 
-Codes exemples du cours de M2S - ENSGTI
+Codes exemples du cours de Modélisation Numérique (2A - ENSGTI)
 
-Bientôt en Python !!
+Initialement en Fortran, on migre gentillement vers Python ;-)
+
+```
+           /^\/^\
+         _|__|  O|
+\/     /~     \_/ \
+ \____|__________/  \
+        \_______      \
+                `\     \                 \
+                  |     |                  \
+                 /      /                    \
+                /     /                       \\
+              /      /                         \ \
+             /     /                            \  \
+           /     /             _----_            \   \
+          /     /           _-~      ~-_         |   |
+         (      (        _-~    _--_    ~-_     _/   |
+          \      ~-____-~    _-~    ~-_    ~-_-~    /
+            ~-_           _-~          ~-_       _-~
+               ~--______-~                ~-___-~
+```
