@@ -48,10 +48,13 @@ for m in range(0,mMax):
 # ========================================
 # Routine d'export
 # ========================================
+data = np.zeros((0,3)) # variable pour le tracé de l'évolution temporelle
 def export():
+    global data
     x = [ r(m) for m in range(mMax)]
     plt.plot(x,T, label=f"{time:10.2f}s")
     plt.legend()
+    data = np.append(data, [[time, T[0], T[mMax-1]]], axis=0)
    
 # ========================================
 # Résolution
@@ -71,6 +74,7 @@ while time<D:
     if time>=nextLog:
         export()
         nextLog += dtLog # planification de la prochaine sauvegarde
+    
     for m in range(mMax):
         # Calcul du flux GAUCHE
         if m==0:
@@ -97,5 +101,10 @@ while time<D:
 plt.savefig(f"graph_full.png")
 plt.close()
 
+plt.plot(data[:,0],data[:,1],label="centre")
+plt.plot(data[:,0],data[:,2],label="paroi")
+plt.legend()
+plt.savefig("graph_evol.png")
+plt.close
 
     
