@@ -14,13 +14,13 @@ import matplotlib.pyplot as plt
 # Déclaration des paramètres
 # ========================================
 
-mMax = 20       # [-] nombre de pas d'espace
-iMax = 1000     # [-] nombre de pas de temps
+mMax = 200       # [-] nombre de pas d'espace
+iMax = 2000     # [-] nombre de pas de temps
 
 L = 0.1         # [m] épaisseur du mur
-D = 720        # [s] durée de la simulation
+D = 2*720        # [s] durée de la simulation
 
-rho = 240       # [kg/m3] masse volumique
+rho = 2*240       # [kg/m3] masse volumique
 C = 800         # [kg/m3] capacité calorifique
 k = 1.6         # [W/(m.K)] conductivité thermique
 
@@ -115,7 +115,8 @@ x = dx*(np.arange(0,mMax)-0.5+1)
 t = dt*np.arange(0, iMax)
 X, Y = np.meshgrid( t,x)
 
-surf = ax.plot_surface( X,Y,T, rstride=1, cstride=50, cmap='jet', edgecolor='black')
+surf = ax.plot_surface( X,Y,T, rstride=10, cstride=20050, cmap='jet', edgecolor='black')
+#surf = ax.plot_surface( X,Y,T, cmap='jet', edgecolor='black')
 ax.set_title('Mur 3D');
 ax.set_xlabel('$t$ [s]')
 ax.set_ylabel('$x$ [m]')
